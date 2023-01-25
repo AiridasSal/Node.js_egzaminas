@@ -1,0 +1,26 @@
+{
+  "name": "4_paskaita",
+  "version": "1.0.0",
+  "description": "4 nodeJs paskaita",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "Airidas Šalnis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "mongodb": "^4.13.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
